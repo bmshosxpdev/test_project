@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-express-postgres",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "bmsdevx",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "line-notify-nodejs": "^1.0.1",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "pg": "^8.8.0",
+    "tzdata": "^1.0.30",
+    "utf8": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMSDEVX/qrpayment-nodejs-express_mysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BMSDEVX/qrpayment-nodejs-express_mysql/issues"
+  },
+  "homepage": "https://github.com/BMSDEVX/qrpayment-nodejs-express_mysql#readme"
+}
